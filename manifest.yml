@@ -1,0 +1,8 @@
+---
+applications:
+- name: location-simulator
+  memory: 256M
+  instances: 1
+  host: location-simulator
+  domain: bs.com
+  path: build/libs/location-simulator-0.1.0.jar
