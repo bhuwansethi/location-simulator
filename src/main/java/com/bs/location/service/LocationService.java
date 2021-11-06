@@ -21,7 +21,7 @@ import com.google.maps.model.TravelMode;
 @Service
 public class LocationService {
 
-	private final String API_KEY = "AIzaSyAEQvKUVouPDENLkQlCF6AAap1Ze-6zMos";
+	private final String API_KEY = "YOUR_API_KEY";
 
 	public List<String> getLatLong(String origin, String destination, int interval) {
 		List<String> list = new ArrayList<>();

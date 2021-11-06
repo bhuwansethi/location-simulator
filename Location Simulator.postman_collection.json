@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "30bc2b2c-957e-476c-92ff-0d049086769b",
+		"name": "Location Simulator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Cordinates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/location?origin=12.93175,77.62872&destination=12.92662,77.63696",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"location"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "12.93175,77.62872"
+						},
+						{
+							"key": "destination",
+							"value": "12.92662,77.63696"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cordinates with Interval",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/location?origin=12.93175,77.62872&destination=12.92662,77.63696&interval=100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"location"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "12.93175,77.62872"
+						},
+						{
+							"key": "destination",
+							"value": "12.92662,77.63696"
+						},
+						{
+							"key": "interval",
+							"value": "100"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
